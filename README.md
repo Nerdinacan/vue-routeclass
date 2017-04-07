@@ -63,44 +63,16 @@ export default {
 ```html
 <script src="./SomeComponent.js"></script>
 
-<!--
-Place your shitty markup littered with non-semantic bootstrap
-styles here somewhere, because that's the way you've always seen
-it, right? So that must be correct. I mean if Bootstrap did it,
-it has to be right. Why would I ever doubt that putting a fucking
-class on an element named .col3bluefuckingheadline might be no
-better than using the font-face attribute.
-
-Or hey! Maybe we can just fucking use JAVASCRIPT to write our CSS
-on each element instead of just learning to the rules of CSS. Yeah
-who needs those convenient Chrome tools to deconstruct the CSS
-assignments? Who the fuck uses that anyway, a designer? That sounds
-like maintenance bullshit I don't have to ever think about as I
-assemble my MVP piece of shit.
-
-Yeah, I heard some dumbshit at a convention recommend doing that,
-so it must be a good plan.
-
-I mean, not so many years ago we did the same thing with SQL, right?
-When it got hard for our poor little brains to understand how to do
-SQL joins, and to understand what the fuck a foreign key is for, we
-just adopted a kind of database that didn't require us to learn how
-to write SQL at all.
-
-That's the Millennial way! When things get tough: just don't do it.
--->
-
 <template>
 <main v-route-class>
    <div class="content">
-      <transition name="rotato" appear>
-         <router-view></router-view>
-      </transition>
+      <!-- put your shitty, un-maintanable, non-semantic
+	  bootstrap-class laden markup in here -->
+      <router-view></router-view>
    </div>
 </main>
 </template>
 ```
-
 
 ### styles.css/.scss/.less/.blah
 ```css
