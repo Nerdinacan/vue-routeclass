@@ -39,14 +39,12 @@ const router = new VueRouter({ routes });
 export default router;
 ```
 
-## Then use the damned thing.
+## Register with your container component.
 ### SomeComponent.js
 ```javascript
 
 import router from 'router';
 import RouteClass from 'vue-routeclass';
-
-// because you're using webpack, aren't you Billy?
 import './styles';
 
 export default {
@@ -67,7 +65,7 @@ export default {
 <main v-route-class>
    <div class="content">
       <!-- put your shitty, un-maintanable, non-semantic
-	  bootstrap-class laden markup in here -->
+	  bootstrap-class-laden markup in here -->
       <router-view></router-view>
    </div>
 </main>
@@ -84,16 +82,16 @@ styles directly on the element. Fucking Millennials.
 */
 
 .home .content {
-	do: things;
+   do: things;
 }
 
 .contact .content {
-	width: yourmom%;
+   width: yourmom%;
 }
 
 ```
 
-## Good Job Snowflake. Pick up your participation trophy on the way out.
+## Good job, Snowflake. Pickup your participation trophy on your way out of my god-damned office.
 
 Now you can spend the next 15 minutes pretending you're not another incompetent Millennial who can't cascade styles, separate concerns or test units.
 
