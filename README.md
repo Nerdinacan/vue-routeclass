@@ -91,14 +91,13 @@ That's the Millennial way! When things get tough: just don't do it.
 -->
 
 <template>
-	<main v-route-class>
-		<div class="content">
-
-			<transition name="rotato" appear>
-				<router-view></router-view>
-			</transition>
-		</div>
-	</main>
+<main v-route-class>
+   <div class="content">
+      <transition name="rotato" appear>
+         <router-view></router-view>
+      </transition>
+   </div>
+</main>
 </template>
 ```
 
